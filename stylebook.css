@@ -1,0 +1,143 @@
+html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#top{
+    display: flex;
+}
+#logo{
+    display: flex;
+}
+#top::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+
+}
+#logo{
+    margin-left: 8px;
+    font-size: 35px;
+    margin-top: -5px;
+}
+#tf{
+    color: rgb(52, 181, 236);
+    
+}
+#w{
+    color: aliceblue;
+
+}
+
+#ul{
+ display: flex;
+  list-style: none;
+  margin-left: 700px;
+}
+
+.list{
+    margin: 13px;
+}
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+
+.list :hover{
+    color: rgb(123, 124, 125);
+}
+
+#book{
+    left: -8px;
+    position: relative;
+    top: -15px;
+}
+
+#book::before{
+    content: "";
+    background-color:rgb(231 96 129);;
+    position: absolute;
+    left:0px;
+    height: 902px;
+    width: 101%;
+    z-index: -1;
+  
+
+
+}
+
+
+#box{
+    display: flex;
+   
+}
+
+#img{
+    height: auto;
+    width: 57%;
+}
+.box2 h1{
+    font-size: 50px;
+}
+.boxx{
+    margin: 25px;
+}
+
+.inp{
+    font-size: 15px;
+    width: 325px;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.lab{
+    font-size: 35px;
+}
+
+
+#nm{
+    margin-left: 40px;
+}
+#ml{
+    margin-left: 88px;
+}
+#ph{
+    margin-left: 100px;
+}
+#li{
+    margin-left: 17px;
+}
+#ad{
+    margin-left: 68px;
+}
+#vhcl{
+    margin-left: 115px;
+    width: 330px;
+}
+.md{
+    margin-left: 50px;
+    font-size: 25px;
+}
+#dat{
+    margin-left: 115px;
+}
+#tim{
+    margin-left: 117px;
+}
+
+
+#btn{
+    margin-left: 270px;
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+
+#btn:hover{
+background-color: rgb(150, 148, 148);
+}

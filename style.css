@@ -1,3 +1,4 @@
+
 html{
     scroll-behavior: smooth;
 }
@@ -68,8 +69,9 @@ html{
 #image{
     position: relative;
     top: -13px;
-    height: 60%;
-  
+    height: auto;
+    width: 100%;
+
 }
 
 .box{
@@ -293,8 +295,8 @@ font-size: 70px;
     border-radius: 10px;
     color: aliceblue;
     background-color: black;
-    margin: 10px;
-    margin-left: 43px;
+    margin: 7px;
+    margin-left: 30px;
     padding-left: 20px;
 }
 
@@ -320,7 +322,7 @@ font-size: 70px;
     border-radius: 10px;
     color: aliceblue;
     background-color: black;
-    margin: 10px;
+    margin: 9px;
     margin-left: 10px;
     padding-left: 20px;
 }
@@ -374,7 +376,7 @@ footer{
     top: -13px;
     left: -8px;
     height: 60px;
-    width: 101%;
+    width: 103.2%;
     z-index: -1;
 }
 
@@ -385,19 +387,7 @@ footer{
     left: 650px;
     position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
@@ -407,16 +397,16 @@ footer{
     #ul{
         display: flex;
          list-style: none;
-         margin-left: 3px;
+         margin-left: 2.5px;
        }
 
        #top::before{
        height: 70px;
-        width: 102%;
+        width: 100%;
     }
 .list{
     padding: -2px;
-    margin: 9px;
+    margin: 8px;
 }
     .list a{
         font-size: 10px;
@@ -435,32 +425,32 @@ footer{
 
 
     #image{
-        top: 20px;
-        height: 245px;
-    width: 100%;
+        top: 2px;
+        width:100%;
+        height: auto;
         left: -2%;
     }
 
     #home::before{
         position: absolute;
         top: 70px;
-        height: 530px;
-        width: 102%;
+        height: 100%;
+        width: 100%;
     }
     
     .box h1{
-        font-size: 40px;
+        font-size: 38px;
     }
 
      #p{
-         font-size: 25px;
-         padding: 2px;
+         font-size: 23px;
+         padding: 1.6px;
          text-align: center;
      }
      #btn{
-        height: 40px;
+        height: 39px;
         width: 37%;
-        font-size: 16px;
+        font-size: 15px;
         
      }
      .box{
@@ -476,23 +466,23 @@ footer{
 
 
     .srch::before{
-        top: 600px;
-        height: 650px; 
-    width: 102%;
+        top: 700px;
+        height: 670px; 
+    width: 100%;
 
     }
 
     #img2{
         top: -16px;
-        height: 289px;
-    width: 100%;
+        width:100%;
+        height: auto;
     left: -8px;
     left: -3%;
     margin: 0px;
     }
 
     #box1{
-        top: 39px;
+        top: 100px;
         display: flex;
         flex-direction: column-reverse;
         position: relative;
@@ -539,38 +529,38 @@ footer{
 
 
     #btn2{
-        height: 40px;
+        height: 39px;
         width: 37%;
-        font-size: 16px;
+        font-size: 15px;
         
      }
 
     .box3{
-        top: 1245px;
+        top: 1378px;
         flex-direction: column-reverse;
     }
 
 
 
      #img3{
-        top: 12px;
-        height: 289px;
-    width: 100%;
+        top: 25px;
+        width:100%;
+        height: auto;
         left: -8px;
         position: relative;
     
     }
 
 #rent::before{
-    top: 1249px;
+    top: 1370px;
     left: 0px;
-    height: 545px;
-    width: 102%;
+    height: 565px;
+    width: 100%;
 }
 
 
 #rent h1{
-    font-size: 40px;
+    font-size: 38px;
 }
 
 
@@ -580,9 +570,9 @@ footer{
 
 
 #btn3{
-    height: 40px;
-    width: 37%;
-    font-size: 16px;
+        height: 39px;
+        width: 37%;
+        font-size: 15px;
 
 }
 
@@ -593,45 +583,48 @@ footer{
 
 
 .box4 h1{
-    font-size: 40px;
+    font-size: 43px;
     }
 
 
     .lbls{
-        font-size: 25px;
+        font-size: 23px;
     }
 
 
     #img4{
-        width: 385px;
-        height: 270px;
+        width:100%;
+        height: auto;
+        left: -19px;
+        position: relative;
     }
 
 
     .box5{
-        top: -65px;
+        top: -55px;
         position: relative;
+        margin-right: 9px;
     }
     
     #name{
-        width: 247px;
+        width: 100%;
         height: 45px
     }
     
     #mail{
-        width: 247px;
+        width: 100%;
         height: 45px
     
     }
 
     #msg{
-        width: 245px;
+        width: 100%;
         height: 100px;
     }
     
     
    #btn5{
-    height: 40px;
+    height: 38px;
     width: 37%;
     font-size: 16px;
     left: 0px;
@@ -639,18 +632,18 @@ footer{
    }
 
    #cont{
-    height: 635px;
+    height: 594px;
 }
 
 #cont::before{
-    top: -174px;
-    height: 748px;
-    width: 106%;
+    top: -32px;
+    height: 768px;
+    width: 102.2%;
 
 }
 
 .box4{
-    top: -120px;
+    top: 10px;
 }
 
 #cont{
@@ -660,22 +653,19 @@ footer{
 
 
 #foot::before{
-    top: 14px;
+    top: 165px;
     left: -8px;
     height: 60px;
-    width: 106%;
+    width: 104.4%;
     z-index: -1;
 }
 
 .ey{
-    top: 18px;
+    top: 165px;
     display: inline;
     color: aliceblue;
     font-size: 40px;
-    left: 100px;
+    left: 70px;
     position: relative;
 }
-
-
-
 }

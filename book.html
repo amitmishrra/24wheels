@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="stylebook.css">
+</head>
+
+<body>
+    <section id="top">
+
+        <div id="logo">
+            <P id="tf"> 24-</P>
+            <p id="w"> Wheels</p>
+        </div>
+
+        <ul id="ul">
+            <li class="list"><a href="#home">Home</a></li>
+            <li class="list"><a href="#srch">Book Now</a></li>
+            <li class="list"><a href="#rent">Register</a></li>
+            <li class="list"><a href="#cont">Contact Us </a></li>
+            <li class="list"><a href="#">Help</a></li>
+        </ul>
+    </section>
+
+    <section id="book">
+        <div id="box">
+            <img id="img" src="https://i.pinimg.com/originals/3d/77/8d/3d778d998ccd929b4a9c55f6e33513d6.gif" alt="">
+
+
+            <div class="box2">
+                <h1>Book Your Vehical</h1>
+
+                <div class="boxx" id="name">
+                    <label class="lab" for="name">Full Name :</label>
+                    <input class="inp" type="text" placeholder="Enter Your Name" id="nm">
+                </div>
+
+                <div class="boxx" id="email">
+                    <label for="email" class="lab">E-mail : </label>
+                    <input type="text" placeholder="Enter Your Email" class="inp" id="ml">
+                </div>
+
+                <div class="boxx" id="cont">
+                    <label for="cont" class="lab">Phone :</label>
+                    <input class="inp" placeholder="Enter Your Phone Number" type="text" id="ph">
+                </div>
+
+                <div class="boxx" id="lis">
+                    <label for="lis" class="lab">Licence No. :</label>
+                    <input placeholder="Enter Your Licance Number " class="inp" type="text" id="li">
+                </div>
+
+                <div class="boxx" id="add">
+                    <label for="add" class="lab">Address : </label>
+                    <input placeholder="Enter Your Address" id="ad" type="text" class="inp">
+                </div>
+
+                <div class="boxx" id="typ">
+                    <label class="lab" for="car">Type : </label>
+                    <select class="inp" id="vhcl">
+                        <option value="ind">Bike</option>
+                        <option value="swf" selected>Scooty</option>
+                        <option value="swf" selected>SUV</option>
+                        <option value="swf" selected>Sedan</option>
+                        <option value="swf" selected>Open Roof</option>
+                        <option value="swf" selected>XUV</option>
+                    </select>
+                </div>
+
+                <div class="boxx" id="mode">
+                    <label for="mode" class="lab">Mode : </label>
+
+                    <label class="md" for="">Self Ride</label> <input class="md" type="radio" name="mode">
+
+                    <label class="md" for="Driver">Driver</label> <input class="md" type="radio" name="mode">
+
+
+
+                </div>
+
+                <div class="boxx" id="date">
+                    <label class="lab" for="date  ">Date : </label>
+                    <input type="date" class="inp" name="" id="dat">
+                </div>
+
+                <div class="boxx" id="time">
+                    <label class="lab" for="time">Time :</label>
+                    <input type="time" name="" class="inp" id="tim">
+                </div>
+
+                <button onclick="run()" class="boxx" id="btn">Book Now</button>
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+<script>
+    function run(){
+        let btn = document.getElementById('btn');
+          alert("Your ride is booked")
+    }
+</script>
+  
+</body>
+
+</html>
+
