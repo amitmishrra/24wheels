@@ -31,73 +31,80 @@
         <div id="box">
             <img id="img" src="https://i.pinimg.com/originals/3d/77/8d/3d778d998ccd929b4a9c55f6e33513d6.gif" alt="">
 
+            <form name="myform" onsubmit="return verify()" method="post">
+                <div class="box2">
+                    <h1>Book Your Vehical</h1>
 
-            <div class="box2">
-                <h1>Book Your Vehical</h1>
+                    <div class="boxx" id="name">
+                        <label class="lab" for="name">Full Name :</label>
+                        <input class="inp" name="fname" type="text" placeholder="Enter Your Name" id="nm"> <span
+                            class="ferror"> </span>
+                    </div>
 
-                <div class="boxx" id="name">
-                    <label class="lab" for="name">Full Name :</label>
-                    <input class="inp" type="text" placeholder="Enter Your Name" id="nm">
-                </div>
+                    <div class="boxx" id="email">
+                        <label for="email" class="lab">E-mail : </label>
+                        <input type="text" name="fmail" placeholder="Enter Your Email" class="inp" id="ml"><span
+                            class="ferror"> </span>
+                    </div>
 
-                <div class="boxx" id="email">
-                    <label for="email" class="lab">E-mail : </label>
-                    <input type="text" placeholder="Enter Your Email" class="inp" id="ml">
-                </div>
+                    <div class="boxx" id="cont">
+                        <label for="cont" class="lab">Phone :</label>
+                        <input class="inp" placeholder="Enter Your Phone Number" type="text" name="fnum" id="ph"><span
+                            class="ferror"> </span>
+                    </div>
 
-                <div class="boxx" id="cont">
-                    <label for="cont" class="lab">Phone :</label>
-                    <input class="inp" placeholder="Enter Your Phone Number" type="text" id="ph">
-                </div>
+                    <div class="boxx" id="lis">
+                        <label for="lis" class="lab">Licence No. :</label>
+                        <input placeholder="Enter Your Licance Number " class="inp" type="text" id="li"><span
+                            class="ferror"> </span>
+                    </div>
 
-                <div class="boxx" id="lis">
-                    <label for="lis" class="lab">Licence No. :</label>
-                    <input placeholder="Enter Your Licance Number " class="inp" type="text" id="li">
-                </div>
+                    <div class="boxx" id="add">
+                        <label for="add" class="lab">Address : </label>
+                        <input placeholder="Enter Your Address" id="ad" name="flis" type="text" class="inp"><span
+                            class="ferror">
+                        </span>
+                    </div>
 
-                <div class="boxx" id="add">
-                    <label for="add" class="lab">Address : </label>
-                    <input placeholder="Enter Your Address" id="ad" type="text" class="inp">
-                </div>
+                    <div class="boxx" id="typ">
+                        <label class="lab" for="car">Type : </label>
+                        <select class="inp" id="vhcl">
+                            <option value="ind">Bike</option>
+                            <option value="swf" selected>Scooty</option>
+                            <option value="swf" selected>SUV</option>
+                            <option value="swf" selected>Sedan</option>
+                            <option value="swf" selected>Open Roof</option>
+                            <option value="swf" selected>XUV</option>
+                        </select><span class="ferror"> </span>
+                    </div>
 
-                <div class="boxx" id="typ">
-                    <label class="lab" for="car">Type : </label>
-                    <select class="inp" id="vhcl">
-                        <option value="ind">Bike</option>
-                        <option value="swf" selected>Scooty</option>
-                        <option value="swf" selected>SUV</option>
-                        <option value="swf" selected>Sedan</option>
-                        <option value="swf" selected>Open Roof</option>
-                        <option value="swf" selected>XUV</option>
-                    </select>
-                </div>
+                    <div class="boxx" id="mode">
+                        <label for="mode" class="lab">Mode : </label>
 
-                <div class="boxx" id="mode">
-                    <label for="mode" class="lab">Mode : </label>
+                        <label class="md" for="">Self Ride</label> <input class="md" type="radio" name="mode">
 
-                    <label class="md" for="">Self Ride</label> <input class="md" type="radio" name="mode">
-
-                    <label class="md" for="Driver">Driver</label> <input class="md" type="radio" name="mode">
-
-
-
-                </div>
-
-                <div class="boxx" id="date">
-                    <label class="lab" for="date  ">Date : </label>
-                    <input type="date" class="inp" name="" id="dat">
-                </div>
-
-                <div class="boxx" id="time">
-                    <label class="lab" for="time">Time :</label>
-                    <input type="time" name="" class="inp" id="tim">
-                </div>
-
-                <button onclick="run()" class="boxx" id="btn">Book Now</button>
+                        <label class="md" for="Driver">Driver</label> <input class="md" type="radio" name="mode"><span
+                            class="ferror"> </span>
 
 
 
-            </div>
+                    </div>
+
+                    <div class="boxx" id="date">
+                        <label class="lab" for="date  ">Date : </label>
+                        <input type="date" class="inp" name="" id="dat"><span class="ferror"> </span>
+                    </div>
+
+                    <div class="boxx" id="time">
+                        <label class="lab" for="time">Time :</label>
+                        <input type="time" name="" class="inp" id="tim"><span class="ferror"> </span>
+                    </div>
+
+
+            </form>
+            <button type="submit" onclick="run()" class="boxx" id="btn">Book Now</button>
+
+        </div>
 
 
 
@@ -106,14 +113,72 @@
 
 
 
-<script>
-    function run(){
-        let btn = document.getElementById('btn');
-          alert("Your ride is booked")
-    }
-</script>
-  
+    <script>
+
+        function seterror(id, error) {
+            element = document.getElementById(id)
+            element.getElementsByClassName('ferror')[0].innerHTML = error;
+        }
+
+
+
+        function verify() {
+            var rv = true;
+
+            var name = document.forms['myform']['fname'].value;
+            if (name.length < 4) {
+                seterror('name', 'name is short')
+                var rv = false;
+
+            }
+
+            console.log(name);
+
+
+            var email = document.forms['myform']['fmail'].value;
+            if (email.length < 10) {
+                seterror('email', 'invalid email')
+                var rv = false;
+
+            }
+            console.log(email);
+
+            var cont = document.forms['myform']['fnum'].value;
+            if (cont.length <= 10) {
+                seterror('cont', 'invalid number')
+                var rv = false;
+
+            }
+            console.log(cont);
+
+
+            var lis = document.forms['myform']['flis'].value;
+            if (lis.length = ' ') {
+                seterror('lis', 'incomplete')
+                var rv = false;
+
+            }
+            console.log(lis);
+
+
+            return rv;
+        }
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
 </body>
 
 </html>
-
