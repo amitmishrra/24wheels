@@ -39,6 +39,7 @@ html{
  display: flex;
   list-style: none;
   margin-left: 700px;
+  
 }
 
 .list{
@@ -262,7 +263,7 @@ html{
     top: -67px;
     left: -8px;
     height: 700px;
-    width: 103.2%;
+    width: 100.5%;
     z-index: -1;
 }
 
@@ -270,6 +271,7 @@ html{
     display: flex;
     top: 0%;
     position: relative;
+    padding: 4px;
 }
 
 .box4 h1{
@@ -302,8 +304,10 @@ font-size: 70px;
 
 
 #img4{
-    width: 740.5px;
-    height: 450px;
+    position: relative;
+    width: 51%;
+    height: 51%;
+    left: -9px;
 }
 
 .box5{
@@ -312,12 +316,12 @@ font-size: 70px;
 }
 
 #name{
-    width: 550px;
+    width: 580px;
     height: 45px
 }
 
 #msg{
-    width: 545px;
+    width: 560px;
     height: 200px;
     border-radius: 10px;
     color: aliceblue;
@@ -329,7 +333,7 @@ font-size: 70px;
 
 
 #mail{
-    width: 550px;
+    width: 580px;
     height: 45px
 
 }
@@ -376,7 +380,7 @@ footer{
     top: -13px;
     left: -8px;
     height: 60px;
-    width: 103.2%;
+    width: 101%;
     z-index: -1;
 }
 
