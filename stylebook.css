@@ -65,9 +65,6 @@ html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
     height: 902px;
     width: 101%;
     z-index: -1;
-  
-
-
 }
 
 
@@ -89,13 +86,13 @@ html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
 
 .inp{
     font-size: 15px;
-    width: 325px;
+    width: 275px;
     border-radius: 20px;
     height: 35px;
 }
 
 .lab{
-    font-size: 35px;
+    font-size: 27px;
 }
 
 
@@ -106,21 +103,21 @@ html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
     margin-left: 88px;
 }
 #ph{
-    margin-left: 100px;
+    margin-left: 90px;
 }
 #li{
-    margin-left: 17px;
+    margin-left: 20px;
 }
 #ad{
-    margin-left: 68px;
+    margin-left: 65px;
 }
 #vhcl{
     margin-left: 115px;
-    width: 330px;
+    width: 275px;
 }
 .md{
     margin-left: 50px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #dat{
     margin-left: 115px;
@@ -141,3 +138,102 @@ html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
 #btn:hover{
 background-color: rgb(150, 148, 148);
 }
+
+
+.error{
+    font: bold;
+    color: rgb(135, 33, 33);
+}
+
+
+
+@media screen and (max-width: 1170px) {
+
+    #ul{
+        display: flex;
+         list-style: none;
+         margin-left: 2.5px;
+       }
+
+       #top::before{
+       height: 70px;
+        width: 100%;
+    }
+.list{
+    padding: -2px;
+    margin: 8px;
+}
+    .list a{
+        font-size: 10px;
+
+    }
+#ul{
+    margin-top: 0px;
+}
+
+    #logo{
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+#box{
+  flex-direction: column;
+
+}
+
+
+#img{
+    height: auto;
+    width: 100%;
+}
+
+
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
