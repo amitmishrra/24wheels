@@ -183,7 +183,7 @@ background-color: rgb(150, 148, 148);
         position: absolute;
         top: 0px;
 }
-    }
+    
 
     
 #box{
@@ -262,4 +262,5 @@ background-color: rgb(150, 148, 148);
 
 .ferror{
     font-size: 10px;
+}
 }
