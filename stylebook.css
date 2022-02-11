@@ -156,7 +156,7 @@ background-color: rgb(150, 148, 148);
        }
 
        #top::before{
-       height: 70px;
+       height: 65px;
         width: 100%;
     }
 .list{
@@ -176,6 +176,16 @@ background-color: rgb(150, 148, 148);
         font-size: 15px;
     }
 
+
+    #book::before{
+        height: 1185px;
+        width: 104.4%;
+        position: absolute;
+        top: 0px;
+}
+    }
+
+    
 #box{
   flex-direction: column;
 
@@ -185,6 +195,8 @@ background-color: rgb(150, 148, 148);
 #img{
     height: auto;
     width: 100%;
+    top: 33px;
+    position: relative;
 }
 
 
@@ -193,30 +205,61 @@ background-color: rgb(150, 148, 148);
     flex-direction: column;
 }
 
+.boxx{
+    margin: 13px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inp{
+    font-size: 10px;
+    width: 200px;
+    border-radius: 20px;
+    height: 30px;
 }
 
 
+.lab{
+    font-size: 17px;
+}
 
 
+#nm{
+    margin-left: 12px;
+}
+#ml{
+    margin-left: 44px;
+}
+#ph{
+    margin-left: 44px;
+}
+#li{
+    margin-left: 0px;
+}
+#ad{
+    margin-left: 27px;
+}
+#vhcl{
+    margin-left: 55px;
+    width: 207px;
+    height: 30px;
+}
+.md{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#dat{
+    margin-left: 20px;
+}
+#tim{
+    margin-left: 20px;
+}
 
+#btn{
+    margin-left: 140px;
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+}
 
-
-
-
-
+.ferror{
+    font-size: 10px;
+}
