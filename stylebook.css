@@ -70,6 +70,7 @@ html{font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
 
 #box{
     display: flex;
+    flex-direction: row;
    
 }
 
@@ -183,7 +184,7 @@ background-color: rgb(150, 148, 148);
         position: absolute;
         top: 0px;
 }
-    
+
 
     
 #box{
@@ -263,4 +264,5 @@ background-color: rgb(150, 148, 148);
 .ferror{
     font-size: 10px;
 }
+
 }

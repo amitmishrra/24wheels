@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your vehicle</title>
+    <link rel="stylesheet" href="reg.css">
+
+</head>
+
+<body>
+    <section id="top">
+
+        <div id="logo">
+            <P id="tf"> 24-</P>
+            <p id="w"> Wheels</p>
+        </div>
+
+        <ul id="ul">
+            <li class="list"><a href="index.html">Home</a></li>
+            <li class="list"><a href="book.html">Book Now</a></li>
+            <li class="list"><a href="srch">Search</a></li>
+            <li class="list"><a href="reg.html">Register</a></li>
+            <li class="list"><a href="index.html #cont">Contact Us</a></li>
+        </ul>
+
+
+    </section>
+
+
+
+
+    <Section id="reg">
+
+        <div id="box">
+
+
+            <form name="myform"  onsubmit="return verify()" method="post">
+                <div id="box2">
+
+                    <h1>Rent Your vehicle and earn</h1>
+
+                    <div class="boxx" id="name">
+                        <label class="lab">Name :</label>
+                        <input name="fname" class="inp" id="nm" placeholder="Enter Your Name" type="text">
+                        <span class="ferror"></span>
+                    </div>
+
+
+                    <div class="boxx" id="mail">
+                        <label class="lab">E-mail :</label>
+                        <input name="fmail" class="inp" placeholder="Enter Your mail" id="em" type="text">
+                        <span class="ferror"></span>
+                    </div>
+
+
+                    <div class="boxx" id="contact">
+                        <label class="lab">Contact :</label>
+                        <input name="fnum" class="inp" placeholder="Enter Your Number" id="con" type="text">
+                        <span class="ferror"></span>
+                    </div>
+
+
+                    <div class="boxx" id="add">
+                        <label class="lab">Address :</label>
+                        <input class="inp" placeholder="Enter your Address" name="fadd" id="ad" type="text"> <span class="ferror"> </span>
+                    </div>
+
+
+                    <div class="boxx" id="vhcl">
+                        <label class="lab">Type :</label>
+                        <label class="md" for="">2 Wheeler</label> <input class="md" type="radio" name="typ">
+
+                        <label class="md" for="Driver">4 Wheeler</label> <input class="md" type="radio" name="typ">
+
+                        <label class="md" for="Driver">Other</label> <input class="md" type="radio" name="typ">
+
+                    </div>
+                    <div class="boxx" id="brnd">
+                        <label class="lab">Brand :</label>
+                        <input class="inp" placeholder="Enter Brand Name" id="b" type="text">
+                        <span class="ferror"></span>
+
+                    </div>
+
+
+        <div class="boxx" id="mdl">
+                        <label class="lab">Model :</label>
+                        <input class="inp" placeholder="Enter Model Name" id="m" type="text">
+                        <span class="ferror"> </span>
+                    </div>
+
+                    <div class="boxx" id="rgn">
+                        <label class="lab">Reg. No. :</label>
+                        <input class="inp" placeholder="Enter Registeration Number" id="rn" type="text">
+                        <span class="ferror"></span>
+                    </div>
+
+                    <div class="boxx" id="con">
+                        <label id="lab2" for="">I agree with the terms and conditions of 24-wheels.</label>
+                        <input value="yes" type="checkbox" name="" id="cb"> <span class="ferror"></span>
+                    </div>
+
+                </div>
+                <button id="btn">Register</button>
+
+            </form>
+
+
+            <img id="img" src="https://i.pinimg.com/originals/47/dc/75/47dc75b74021d729822b971f6a299b52.gif" alt="">
+
+
+        </div>
+
+
+
+
+
+    </Section>
+
+
+
+    <script src="reg.js"></script>
+</body>
+   </html>

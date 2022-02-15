@@ -1,0 +1,314 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+#top{
+    display: flex;
+}
+#logo{
+    display: flex;
+}
+#top::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+
+}
+#logo{
+    margin-left: 8px;
+    font-size: 35px;
+    margin-top: -5px;
+}
+#tf{
+    color: rgb(52, 181, 236);
+    
+}
+#w{
+    color: aliceblue;
+
+}
+
+#ul{
+ display: flex;
+  list-style: none;
+  margin-left: 700px;
+  
+}
+
+.list{
+    margin: 13px;
+}
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 22px;
+
+}
+
+.list :hover{
+    color: rgb(123, 124, 125);
+}
+
+#box{
+display: flex;
+
+}
+
+
+#box2{
+    display: flex;
+    flex-direction: column;
+}
+.boxx{
+    margin: 18px;
+}
+
+
+#reg::before{
+    content: "";
+    background-color: rgb(147 191 198);
+    position: absolute;
+    left: 0px;
+    height: 1150px;
+    width: 100%;
+    z-index: -1;
+    top: 100px;
+}
+
+
+
+
+
+
+#img{
+    height: auto;
+    width: 57%;
+    left: 42px;
+    position: relative;
+
+}
+
+#box2 h1{
+    font-size: 50px;
+}
+
+
+.lab{
+    font-size: 27px;
+}
+
+.md{
+    font-size: 25px;
+}
+
+.inp{
+    height: 35px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+
+
+#nm{
+    margin-left: 34px;
+}
+#em{
+    margin-left: 25px;
+}
+#con{
+    margin-left: 15px;
+}
+#ad{
+    margin-left: 10px;
+}
+#b{
+    margin-left: 33px;
+}
+
+
+#m{
+    margin-left: 28px;
+}
+#rn{
+    margin-left: 10px;
+}
+
+
+.md{
+    margin-left: 13px;
+   
+}
+
+#lab2{
+    font-size: 20px;
+}
+
+#btn{
+    height: 40px;
+    width: 130px;
+    position: relative;
+    left: 165px;
+    margin-top: 15px;
+    border-radius: 30px;
+}
+
+
+#btn:hover{
+    background-color: rgb(150, 148, 148);
+    }
+
+
+
+
+    @media screen and (max-width: 1170px) {
+
+        #ul{
+            display: flex;
+             list-style: none;
+             margin-left: 2.5px;
+           }
+    
+           #top::before{
+           height: 65px;
+            width: 100%;
+        }
+    .list{
+        padding: -2px;
+        margin: 8px;
+    }
+        .list a{
+            font-size: 10px;
+    
+        }
+    #ul{
+        margin-top: 0px;
+    }
+    
+        #logo{
+            margin-left: 8px;
+            font-size: 15px;
+        }
+
+
+
+        #reg::before{
+            height: 925px;
+            width: 100%;
+            position: absolute;
+            top: 65px;
+        }
+
+
+            #box{
+                display: flex;
+                flex-direction: column-reverse;
+            }
+
+
+
+            #img{
+                height: auto;
+                width: 100%;
+                top: 6px;
+                left: -4px;
+            }
+
+
+
+            #box2 h1{
+                font-size: 30px;
+            }
+            
+            
+            .lab{
+                font-size: 17px;
+            }
+            
+            .md{
+                font-size: 15px;
+            }
+
+
+            .inp{
+                font-size: 10px;
+                width: 200px;
+                border-radius: 20px;
+                height: 25px;
+            }
+
+
+
+            .boxx{
+                margin: 11px;
+            }
+
+
+            #nm{
+                margin-left: 24px;
+            }
+            #em{
+                margin-left: 19px;
+            }
+            #con{
+                margin-left: 11px;
+            }
+            #ad{
+                margin-left: 8px;
+            }
+            #b{
+                margin-left: 22px;
+            }
+            
+            
+            #m{
+                margin-left: 20px;
+            }
+            #rn{
+                margin-left: 10px;
+            }
+
+
+            .md{
+                margin-left: 8px;
+               
+            }
+
+              #rn{
+                margin-left: 8px;
+              }
+
+
+              #lab2{
+                  font-size: 16px;
+              }
+
+               #btn{ 
+               left: 125px;
+            }
+
+
+
+.ferror{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }

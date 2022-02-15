@@ -56,20 +56,12 @@ function verify() {
     if(rv==true)
     {
         
-    alert("Your vehical is booked")
+    alert("Your ride is booked")
     }
 
     return rv;
 
 }
-
-
-//    function run(){
-//        if(rv = true){
-//            alert("Your vehical is booked")
-//        }
-//    }  
-
 
 
 
